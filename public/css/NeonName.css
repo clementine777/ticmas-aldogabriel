@@ -1,0 +1,82 @@
+.hero-container .neon-text {
+  display: flex;
+  padding: 10px;
+}
+
+/* ------------EFECTO NEON DEL SAlUDO--------- */
+
+h1 .neon-hi {
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+  font-size: 1.7em;
+  display: flex;
+  padding-left: 2rem;
+}
+
+@font-face {
+  font-family: "Caveat-VariableFont_wght";
+  src: url(../../public/fonts/Caveat-VariableFont_wght.woff2) format(woff2);
+}
+
+@keyframes pulsating {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #e94560,
+      0 0 80px #e94560, 0 0 90px #e94560, 0 0 100px #e94560, 0 0 150px #e94560;
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #e94560,
+      0 0 45px #e94560, 0 0 55px #e94560, 0 0 70px #e94560, 0 0 80px #e94560;
+  }
+}
+
+/*---------- EFECTO NEON DEL NOMBRE----------------- */
+
+h1 .neon-name {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+  font-family: "Pacifico-Regular";
+  font-size: 5em;
+  display: flex;
+  align-self: center;
+  padding: 15px 10px 15px 10px;
+}
+
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url(../../public/fonts/Pacifico-Regular.woff2) format("woff2");
+  /* src: url(../../public/fonts/Yellowtail-Regular.woff2) format("woff2"); */
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #e94560,
+      0 0 82px #e94560, 0 0 92px #e94560, 0 0 102px #e94560, 0 0 151px #e94560;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+/* -----------RESTO DEL SALUDO-------- */
+h1 .neon-rest {
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+  font-size: 1.8em;
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+}
+
+.hero-container .short-description {
+  display: flex;
+  padding: 20px;
+  line-height: 1.5em;
+}

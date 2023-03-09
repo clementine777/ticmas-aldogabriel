@@ -1,0 +1,84 @@
+/* ------SECCION ACERCA DE MI------- */
+
+.main-content .section-aboutme {
+  font-size: 4em;
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+}
+
+/* .main-content .section-aboutme */
+h2::after {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid #0f3460;
+  width: 80%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+h2,
+p {
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+ul,
+li {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+/* ---------SECCION MIS ESTUDIOS--------- */
+.main-content .section-mystudies .title-mystudies {
+  font-size: 4em;
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+}
+
+/* ---------SECCION PROYECTOS------- */
+
+.main-content .projects-section .tittle-projects {
+  font-size: 4em;
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+}
+
+/* -------SECCION CONTACTO------- */
+.main-content .section-contactme .tittle-contact {
+  font-size: 4em;
+  animation: pulsating 1.5s infinite alternate;
+  font-family: "Caveat-VariableFont_wght";
+}
+
+.main-content .section-contactme ul li {
+  text-decoration: none;
+}
+
+.main-content .section-contactme ul li a {
+  color: #e94560;
+}
+
+/* ------footer------- */
+footer span {
+  color: #c5c5c5;
+  font-size: 1.4em;
+  padding: 25px;
+}
+
+/* -------CONFIG DE EFECTO NEON---- */
+@font-face {
+  font-family: "Caveat-VariableFont_wght";
+  src: url(../../public/fonts/Caveat-VariableFont_wght.woff2) format(woff2);
+}
+
+@keyframes pulsating {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #e94560,
+      0 0 80px #e94560, 0 0 90px #e94560, 0 0 100px #e94560, 0 0 150px #e94560;
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #e94560,
+      0 0 45px #e94560, 0 0 55px #e94560, 0 0 70px #e94560, 0 0 80px #e94560;
+  }
+}

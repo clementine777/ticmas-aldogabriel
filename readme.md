@@ -1,0 +1,18 @@
+paleta de colores:
+VERDES
+#000000
+#3E432E
+#616F39
+#A7D129
+
+AZULES
+#0A2647
+#144272
+#205295
+#2C74B3
+
+azul obscuro con rosa
+#1A1A2E
+#16213E
+#0F3460
+#E94560
